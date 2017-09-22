@@ -1,0 +1,15 @@
+version '1.0-SNAPSHOT'
+
+dependencies {
+
+    compile project(":metamodel")
+    compile project(":schema")
+
+    // Logging
+    compile("org.slf4j:jcl-over-slf4j:$slf4jVersion")
+    compile("ch.qos.logback:logback-classic:$logbackClassicVersion")
+
+    // Test
+    testCompile("junit:junit:$junitVersion")
+
+}

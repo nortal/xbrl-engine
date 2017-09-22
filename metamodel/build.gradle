@@ -1,0 +1,13 @@
+version '1.0-SNAPSHOT'
+
+dependencies {
+
+    compile("org.apache.commons:commons-lang3:3.3.2")
+    compile("ma.glasnost.orika:orika-core:$orikaVersion") {
+        exclude group: 'org.javassist', module: 'javassist'
+    }
+
+    // Test
+    testCompile("junit:junit:$junitVersion")
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+		Taxonomy: 2017-03-09 (Final)
+		********************** 
+        Copyright (c) 2017 IFRS Foundation
+        All rights reserved. Reproduction and use rights are strictly limited. For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+        The IFRS Foundation has trade marks registered around the world (Marks) including ‘IAS’, ‘IASB’, ‘IFRIC’, ‘IFRS’, the IFRS logo, ‘IFRS for SMEs’, IFRS for SMEs logo, the ‘Hexagon Device’, ‘International Accounting Standards’, ‘International Financial Reporting Standards’, ‘IFRS Taxonomy’ and ‘SIC’. Further details of the IFRS Foundation’s Marks are available from the Licensor on request.
+        **********************
+-->
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-full" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-full" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:appinfo/>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+  <xsd:element abstract="true" id="ifrs-full_FinancialInstrumentsAtAmortisedCostMember" name="FinancialInstrumentsAtAmortisedCostMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="ifrs-full_FinancialInstrumentsAtFairValueMember" name="FinancialInstrumentsAtFairValueMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+  <xsd:element abstract="true" id="ifrs-full_FinancialInstrumentsOutsideScopeOfIFRS7Member" name="FinancialInstrumentsOutsideScopeOfIFRS7Member" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration"/>
+  <xsd:element id="ifrs-full_GainsLossesOnFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" name="GainsLossesOnFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration"/>
+</xsd:schema>

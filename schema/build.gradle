@@ -1,0 +1,38 @@
+version '1.0-SNAPSHOT'
+
+project.ext {
+    jaxbTargetDir = file("${buildDir}/generated-sources")
+}
+
+sourceSets {
+    generated {
+        project.ext.jaxbTargetDir
+    }
+    main {
+        java.srcDir project.ext.jaxbTargetDir
+    }
+}
+
+configurations { xjc }
+
+dependencies {
+    xjc 'org.glassfish.jaxb:jaxb-xjc:2.2.11'
+    xjc 'org.glassfish.jaxb:jaxb-runtime:2.2.11'
+}
+
+task xjc {
+    group = 'build'
+    description = 'Generates Java source code from XML schemas'
+    doLast {
+        ant.taskdef(name: 'xjc', classname: 'com.sun.tools.xjc.XJCTask', classpath: configurations.xjc.asPath)
+        file(project.ext.jaxbTargetDir).mkdirs()
+        ant.xjc(destdir: project.ext.jaxbTargetDir, header: false, extension: true, removeOldOutput: true, target: '2.1') {
+            schema(dir: 'src/main/resources/schema', includes: '**/*.xsd')
+            binding(dir: 'src/main/resources/bindings')
+            produces(dir: project.ext.jaxbTargetDir)
+            arg(line: '-encoding UTF-8')
+        }
+    }
+}
+
+compileJava.dependsOn xjc

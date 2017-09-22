@@ -1,0 +1,27 @@
+buildscript {
+	ext {
+		springBootVersion = '1.5.6.RELEASE'
+	}
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+	}
+}
+
+apply plugin: 'org.springframework.boot'
+
+version '1.0-SNAPSHOT'
+
+dependencies {
+	compile project(":core")
+
+	compile('org.springframework.boot:spring-boot-starter-freemarker')
+	compile('org.springframework.boot:spring-boot-starter-validation')
+	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('javax.servlet:jstl')
+    runtime('org.apache.tomcat.embed:tomcat-embed-jasper')
+	compileOnly('org.projectlombok:lombok')
+	testCompile('org.springframework.boot:spring-boot-starter-test')
+}

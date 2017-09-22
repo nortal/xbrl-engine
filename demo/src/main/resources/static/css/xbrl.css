@@ -1,0 +1,57 @@
+.level_2 {
+    padding-left: 30px;
+}
+
+.level_3 {
+    padding-left: 60px;
+}
+
+.level_4 {
+    padding-left: 90px;
+}
+
+.level_abstract.level_1 {
+    font-size: 16px;
+}
+
+.level_abstract.level_2 {
+    font-size: 14px;
+}
+
+.level_abstract.level_3 {
+    font-size: 12px;
+}
+
+.level_abstract {
+    font-weight: bold;
+}
+
+.monetary-field {
+    width: 80px;
+    text-align: right;
+    margin:0 auto;
+}
+
+textarea.form-control.textblock-field {
+    height: 120px;
+}
+
+.string-field {
+    width: 300px;
+}
+
+.input-group-date {
+    width: 250px;
+}
+
+.total_label {
+    font-weight: bold;
+}
+
+.form-control.total_input {
+    background-color : #CCFFFF;
+}
+
+.area-cell {
+    width: 50%;
+}

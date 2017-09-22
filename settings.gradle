@@ -1,0 +1,3 @@
+rootProject.name = 'xbrl-engine'
+
+include ':core', ':generator', ':metamodel', ':schema', ':demo'

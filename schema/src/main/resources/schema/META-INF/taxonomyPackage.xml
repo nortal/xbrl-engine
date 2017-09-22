@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+		Taxonomy: 2017-03-09 (Final)
+		********************** 
+        Copyright (c) 2017 IFRS Foundation
+        All rights reserved. Reproduction and use rights are strictly limited. For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+        The IFRS Foundation has trade marks registered around the world (Marks) including ‘IAS’, ‘IASB’, ‘IFRIC’, ‘IFRS’, the IFRS logo, ‘IFRS for SMEs’, IFRS for SMEs logo, the ‘Hexagon Device’, ‘International Accounting Standards’, ‘International Financial Reporting Standards’, ‘IFRS Taxonomy’ and ‘SIC’. Further details of the IFRS Foundation’s Marks are available from the Licensor on request.
+        **********************
+--><tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+  <tp:identifier>http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs</tp:identifier>
+  <tp:name>The annual IFRS Taxonomy 2017</tp:name>
+  <tp:description>The IFRS Taxonomy 2017 reflects the presentation and disclosure requirements of the IFRS Standards as issued by the International Accounting Standards Board ('Board') at 1 January 2017, the IFRS for SMEs as issued by the Board in December 2015 and the IFRS Practice Statement Management Commentary as issued by the Board in December 2010. The IFRS Taxonomy also includes elements to reflect IFRS reporting practice (‘common practice’). The main amendments made to the IFRS Taxonomy 2016 that are included in the IFRS Taxonomy 2017 include: Disclosure Initiative (Amendments to IAS 7) issued by the Board in January 2016, Applying IFRS 9 Financial Instruments with IFRS 4 Insurance Contracts (Amendments to IFRS 4) issued by the Board in September 2016 and new common practice for agriculture, leisure, franchises, retail and financial institutions.</tp:description>
+  <tp:version>Final</tp:version>
+  <tp:license href="http://go.ifrs.org/IFRSTterms/" name="The IFRS Taxonomy - Terms and Conditions"/>
+  <tp:publisher>IFRS Foundation</tp:publisher>
+  <tp:publisherURL>http://www.ifrs.org/</tp:publisherURL>
+  <tp:publisherCountry>GB</tp:publisherCountry>
+  <tp:publicationDate>2017-03-09</tp:publicationDate>  
+  <tp:entryPoints>
+    <tp:entryPoint>
+      <tp:name>Basic Entry Point including documentation labels.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS reporting. Documentation labels are included, but generic links are excluded.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/basic_ifrs_doc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Basic Entry Point.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS reporting. Documentation labels and generic links are not included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/basic_ifrs_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Combined Entry Point including documentation labels.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS, IFRS for SMEs and Management Commentary reporting. Documentation labels are included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/combined_doc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Combined Entry Point.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS, IFRS for SMEs and Management Commentary reporting. Documentation labels are not included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/combined_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Deprecated Entry Point including documentation labels.</tp:name>
+      <tp:description>This is the Entry Point for viewing the deprecated taxonomy elements for IFRS reporting. Documentation labels are included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/depr_doc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Deprecated Entry Point.</tp:name>
+      <tp:description>This is the Entry Point for viewing the deprecated taxonomy elements for IFRS reporting. Documentation labels are not included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/depr_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Full IFRS Entry Point including documentation labels.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS reporting. Documentation labels are included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs_doc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Full IFRS Entry Point.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS reporting. Documentation labels are not included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Full IFRS and Management Commentary Entry Point including documentation labels.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS reporting with Management Commentary. Documentation labels are included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs_mc_doc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Full IFRS and Management Commentary Entry Point.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for full IFRS reporting with Management Commentary. Documentation labels are not included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/full_ifrs_mc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>IFRS for SMEs Entry Point including documentation labels.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for IFRS for SMEs reporting. Documentation labels are included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes_doc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>IFRS for SMEs Entry Point.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for IFRS for SMEs reporting. Documentation labels are not included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs_for_smes_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Management Commentary Entry Point including documentation labels.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for Management Commentary reporting. Documentation labels are included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/mc_doc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+    <tp:entryPoint>
+      <tp:name>Management Commentary Entry Point.</tp:name>
+      <tp:description>This is the Entry Point for viewing the taxonomy for Management Commentary reporting. Documentation labels are not included.</tp:description>
+      <tp:entryPointDocument href="http://xbrl.ifrs.org/taxonomy/2017-03-09/mc_entry_point_2017-03-09.xsd"/>
+    </tp:entryPoint>
+  </tp:entryPoints>
+  <tp:versioningReports>
+    <tp:versioningReport href="http://xbrl.ifrs.org/taxonomy/2017-03-09/versioning/versioning_full_PTU3_2016_annual_2017.xml"/>
+    <tp:versioningReport href="http://xbrl.ifrs.org/taxonomy/2017-03-09/versioning/versioning_full_annual_2016_annual_2017.xml"/>
+    <tp:versioningReport href="http://xbrl.ifrs.org/taxonomy/2017-03-09/versioning/versioning_SMEs_annual_2016_annual_2017.xml"/>
+  </tp:versioningReports>
+</tp:taxonomyPackage>

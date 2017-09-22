@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+		Taxonomy: 2017-03-09 (Final)
+		********************** 
+        Copyright (c) 2017 IFRS Foundation
+        All rights reserved. Reproduction and use rights are strictly limited. For more information on the IFRS Foundation's copyright and the terms and conditions of use for these files, please refer to http://go.ifrs.org/IFRSTterms.
+        The IFRS Foundation has trade marks registered around the world (Marks) including ‘IAS’, ‘IASB’, ‘IFRIC’, ‘IFRS’, the IFRS logo, ‘IFRS for SMEs’, IFRS for SMEs logo, the ‘Hexagon Device’, ‘International Accounting Standards’, ‘International Financial Reporting Standards’, ‘IFRS Taxonomy’ and ‘SIC’. Further details of the IFRS Foundation’s Marks are available from the Licensor on request.
+        **********************
+-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs/depr_entry_point" xmlns:depr_entry_point="http://xbrl.ifrs.org/taxonomy/2017-03-09/ifrs/depr_entry_point" xmlns:ifrs="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-full" xmlns:ifrs-mc="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-mc" xmlns:ifrs-smes="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-smes" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="deprecated/depr-lab_full_ifrs-en_2017-03-09.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="deprecated/depr-lab_ifrs-en_2017-03-09.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="deprecated/depr-lab_ifrs_for_smes-en_2017-03-09.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="deprecated/depr-lab_mc-en_2017-03-09.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple"/>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <xsd:import namespace="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-full" schemaLocation="deprecated/full_ifrs-depr_2017-03-09.xsd"/>
+  <xsd:import namespace="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs" schemaLocation="deprecated/ifrs-depr_2017-03-09.xsd"/>
+  <xsd:import namespace="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-smes" schemaLocation="deprecated/ifrs_for_smes-depr_2017-03-09.xsd"/>
+  <xsd:import namespace="http://xbrl.ifrs.org/taxonomy/2016-03-31/ifrs-mc" schemaLocation="deprecated/mc-depr_2017-03-09.xsd"/>
+</xsd:schema>
